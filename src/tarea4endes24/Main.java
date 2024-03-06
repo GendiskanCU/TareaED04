@@ -1,6 +1,7 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Desarrollo de Aplicaciones Multiplataforma modalidad e-learning
+ * Curso 2023/2024. MÓDULO: ENTORNOS DE DESARROLLO
+ * Realización de la Tarea para ED04 Alumno: Miguel Ángel S.R.
  */
 
 package tarea4endes24;
@@ -15,7 +16,7 @@ public class Main {
 
         miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = miCuenta.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("El saldo actual es: "+ saldoActual );
         
     
     }
